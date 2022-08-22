@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #ffeedf;
+    font-family: 'Space Grotesk', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+
+nav {
+    width: 100%;    
+    position: absolute;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #145434;
+}
+
+.burger {
+      
+    color: #145434;    
+}
+
+
+
+.title {
+    color: #145434;
+    font-weight: bolder;
+    font-size: 35px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    height: 100%;
+    width: 100%;
+    gap: 80px;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.card {  
+    background-color: #145434;    
+    border: none;
+    width: 400px;
+    height: 250px;    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    position: relative;
+    padding: 40px;
+    
+}
+
+.card-content {
+    color: #ffeedf;
+}
+
+/* .card-line {
+    display: block;
+    background-color: #ffeedf;
+    height: 1px;
+    border: none;
+    width: 80%;
+} */
+
+.cardtop {
+    background-color: #145434;
+    height: 100%;
+    width: 100%;
+    border-bottom: solid 1px #ffeedf;
+    font-size: 35px;
+    
+}
+
+.cardbot {
+    background-color: #145434;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.beer-type {
+    font-weight: bold;
+}
+
+.card-num {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #ffeedf;
+    border: solid 2px #145434;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #145434;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-btn {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    background-color: #ffeedf;
+    border: solid 2px #145434;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #145434;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.arrow {
+    position: absolute;
+    font-weight: 60px;
+    color: #145434;
+    bottom: 5px;
+    right: 10px;
+}
+
